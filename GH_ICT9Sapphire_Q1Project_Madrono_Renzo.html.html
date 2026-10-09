@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        border: 2px solid rgb(255, 255, 255);
+        min-height: 100vh;
+        box-sizing: border-box;
+        margin: 0;
+    }
+
+    header {
+      background-color: rgb(109, 116, 172);
+      color: rgb(251, 248, 248);
+      padding: 20px;
+    }
+    
+    a{
+    color: rgb(217, 228, 240)
+    }
+
+    #ict{
+            width: 10%;
+            border-radius: 8px;
+            display: block;
+        }
+
+    #Pfp{
+        width: 20%;
+            border-radius: 10px;
+            display: block;
+    }
+
+    h1, p, legend{
+        color: aliceblue;
+    }
+       
+    fieldset{
+        border: 3px solid rgb(250, 250, 249);
+        width: 650px;
+        display: block;
+        margin: auto;
+         border-radius: 13px;
+        background: #592ebd;
+         padding: 30px;
+         border-radius: 15px;
+        box-shadow: 0 0 30px #c6ace9e9;
+    }
+
+    
+
+    h1,h2,h3,h4,h5,h6,p,label,input,ol,ul{
+        color: rgb(248, 247, 249);
+    }
+
+    #SZAProject{
+        width: 55%;
+            border-radius: 20px;
+        display: block; margin: auto;
+    }
+
+    #Movierate{
+        width: 55%;
+            border-radius: 20px;
+        display: block; margin: auto;
+    }
+
+    #group1{
+        color:aliceblue
+    }
+
+    .glow-btn {
+             background: #b36af7;
+             color: rgb(255, 255, 255);
+             border: none;
+             padding: 10px 19px;
+             border-radius: 10px;
+             cursor: pointer;
+             transition: 0.3s;
+        }
+
+        .glow-btn:hover {
+  box-shadow: 0 0 7px #f5f5f5,
+              0 0 12px #a4a4eb,
+              0 0 17px #793dc3;
+  transform: scale(1.05);
+        }
+
+        #del-req{
+            width: 400px;
+            height: 75px;
+        }
+
+        #submit{
+            width: 500px ;
+            border-radius: 80px;
+        }
+
+        footer{
+            background: #b36af7;
+            width: 900px;
+        }
+
+         img {
+        transition: 0.5s;
+        cursor: pointer;
+             transition: 0.3s;
+    }
+
+    img:hover {
+        transform: scale(1.05);
+        box-shadow: 7px #f5f5f5,
+
+    }
+
+    .my-works{
+        display: flex;
+        margin: auto;
+        display: block;
+    }
+
+    header{
+  background-image: url("ICT\ image\ bg.avif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+    }
+</style>
+
+<body>
+    <header>
+        <img src="ict logo.png" id="ict" style="display: block; margin: auto;">
+        <h2 style="text-align: center;">About Me, My Works, Contact Me</h2>
+    </header>
+
+<br>
+<br>
+
+<div style="background-color: rgb(173, 165, 252);">
+    <fieldset> <br> <br>
+        <img src="Pfp.jpg" style="display: block; margin: auto;" id="Pfp"><br>
+        <section>
+            <h2 style="text-align: center;">Hello! I am Renzo Madrono</h2>
+            <p style="text-align: center;">I am learning HTML and CSS.</p>
+        </section>
+    </fieldset><br>
+    <hr>
+
+    <fieldset>
+        <legend>
+            <h2><b>About Me:</b></h2>
+        </legend>
+        <h3 style="color: aliceblue; text-align: center;">Hi! I am Renzo, a student in ICT learning about html!</h3>
+        <p style="text-align: center;">I am friendly, humorous, and smart too!</p>
+    </fieldset>
+
+    <fieldset>
+        <legend>
+            <h2>My Works:</h2>
+        </legend>
+
+        <div class="title">
+            <h2 style="text-align: center;">- My Favorite Spotify Artists -</h2>
+        </div>
+
+        <div class="my-works">
+            <div class="work-img">
+                    <img src="Project.png" id="SZAProject"> 
+                    <h3>Checked Details:</h3> 
+            </div>
+
+            <div class="work-details">
+                <ul>
+                    <li>Html & CSS Projects</li>
+                    <li>Spotify Artists</li>
+                    <li>List</li>
+                    <li>Links</li>
+                    <li>Images</li>
+                </ul>
+            </div>
+            
+        </div>
+    <hr>
+    <br>
+        <div class="title">
+            <h2 style="text-align: center;">- My Rate a Movie Form -</h2>
+        </div>
+
+        <div class="my-works">
+            <div class="work-img">
+                    <img src="Movierate.png" id="Movierate"> 
+                    <h3>Checked Details:</h3> 
+            </div>
+
+            <div class="work-details">
+                <ul>
+                    <li>Html & CSS Projects</li>
+                    <li>Movie Genres</li>
+                    <li>List</li>
+                    <li>Links</li>
+                    <li>Images</li>
+                </ul>
+            </div>
+            
+        </div>
+
+        
+    </fieldset>
+
+    <form>
+
+        <fieldset>
+            <legend>
+                <h2>Contact Me:</h2>
+            </legend>
+
+            <label for="fname"><b>Your Name:</b></label>
+            <input id="fname" type="fname" type="text" placeholder="Enter name here">
+            <br> <br>  <br>
+            <label for="addr"><b>Your Address:</b></label>
+            <input id="addr" type="text" placeholder="Enter Address here">
+            <br><br><br>
+        </fieldset><br>
+
+        <fieldset id="group1">
+            <h3>Where did you find me?</h3>
+            <input type="radio" name="app">Facebook
+            <input type="radio" name="app">Google
+            <input type="radio" name="app">Instagram
+            <input type="radio" name="app">Tiktok
+            <input type="radio" name="app">Friends
+            <br><hr>
+
+            <h3>Interests:</h3>
+            <input type="checkbox" name="type">
+            <label for="Interests"><b>Web Design</b></label><br>
+
+            <input type="checkbox" name="type">
+            <label for="Interests"><b>Graphic Design</b></label><br>
+
+            <input type="checkbox" name="type">
+            <label for="Interests"><b>Robotics</b></label><br>
+
+            <h3>Rate My Porfolio!</h3>
+            <label for="quantity"><b>Rate Here:</b></label>
+            <select name="ratings" id="quantity">
+                <option value="1">⭐</option>
+                <option value="2">⭐⭐</option>
+                <option value="3">⭐⭐⭐</option>
+                <option value="4">⭐⭐⭐⭐</option>
+                <option value="5">⭐⭐⭐⭐⭐</option>
+            </select>
+
+                <br>
+
+            <h3>Any Feedback?</h3>
+            <textarea name="instructions" id="del-req" placeholder="Enter specifications or conditions here..."></textarea>
+            <br><br>
+
+            <input type="submit" class="glow-btn" id="submit" style="font-weight: bold; display: block; margin: auto;">
+            </fieldset>
+        </fieldset>
+
+    </form>
+    <br><br>
+    
+    <footer style="border: 2.5px solid rgb(43, 34, 82); border-radius: 25px; font-weight: bold; display: block; margin: auto;">
+        <p style="text-align: center;">© 2026 Renzo Madrono, 9 Sapphire/ All Rights Reserved</p>
+    </footer>
+    <br>
+</div>
+
+</body>
+</html>
